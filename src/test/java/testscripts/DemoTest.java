@@ -32,6 +32,5 @@ public class DemoTest extends BaseTestClass {
 
 	    String printMsg =  pimpage.getprintMsg();
         System.out.println(printMsg);
-        
-}
+        System.out.println("Hello All");}
 }
