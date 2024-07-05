@@ -7,5 +7,8 @@ public class DemoTest123 {
 	@Test
 	public void m1() {
 		System.out.println("m1 running");
+		System.out.println("m1 running");
+		System.out.println("m1 running");
+		System.out.println("m1 running");
 	}
 }
