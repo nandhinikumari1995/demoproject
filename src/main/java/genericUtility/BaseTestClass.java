@@ -35,15 +35,15 @@ public class BaseTestClass {
 	}
 	@BeforeMethod(alwaysRun = true)
 	public void loginToApp() {
-		System.out.println("---------login to app---------");
-		LoginPage loginPage = new LoginPage(driver);
-	    dashboardPage = loginPage.loginToOrangeHrm
-	    		(propertyUtil.getDataFromProperty("username"),propertyUtil.getDataFromProperty("password"));
+//		System.out.println("---------login to app---------");
+//		LoginPage loginPage = new LoginPage(driver);
+//	    dashboardPage = loginPage.loginToOrangeHrm
+//	    		(propertyUtil.getDataFromProperty("username"),propertyUtil.getDataFromProperty("password"));
 	  	}
 	@AfterMethod(alwaysRun = true)
 	public void logoutFromApp() {
-		System.out.println("logout from app");
-		dashboardPage.logout();
+//		System.out.println("logout from app");
+//		dashboardPage.logout();
 	}
 	@AfterClass(alwaysRun = true)
 	public void closeBrowser() {
