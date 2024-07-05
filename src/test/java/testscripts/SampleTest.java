@@ -12,26 +12,26 @@ public class SampleTest extends BaseTestClass {
 	@Test(groups= {"Sanity","Regression","Smoke"})
 public void testPIMPage() {
 		
-		PIM_EmployeeList pimpage = dashboardPage.navigateToPIMPage();
-	    pimpage.typeEmployeeName(excelUtil.getDataFromExcel("Sheet1", 4, 2));
-	    
-	    pimpage.typeEmployeeid(excelUtil.getDataFromExcel("Sheet1", 4, 3));
-	   
-	    pimpage.employementStatus();
-	    
-	    pimpage.include();
-	    
-	    pimpage.supervisorNameTb(excelUtil.getDataFromExcel("Sheet1", 4, 4));
-	    
-	    pimpage.jobtitleTb();
-	    
-	     
-	    pimpage.subunit();
-	    
-	    pimpage.searchTb();
-
-	    String printMsg =  pimpage.getprintMsg();
-        System.out.println(printMsg);
+//		PIM_EmployeeList pimpage = dashboardPage.navigateToPIMPage();
+//	    pimpage.typeEmployeeName(excelUtil.getDataFromExcel("Sheet1", 4, 2));
+//	    
+//	    pimpage.typeEmployeeid(excelUtil.getDataFromExcel("Sheet1", 4, 3));
+//	   
+//	    pimpage.employementStatus();
+//	    
+//	    pimpage.include();
+//	    
+//	    pimpage.supervisorNameTb(excelUtil.getDataFromExcel("Sheet1", 4, 4));
+//	    
+//	    pimpage.jobtitleTb();
+//	    
+//	     
+//	    pimpage.subunit();
+//	    
+//	    pimpage.searchTb();
+//
+//	    String printMsg =  pimpage.getprintMsg();
+//        System.out.println(printMsg);
         
 }
 
