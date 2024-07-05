@@ -27,11 +27,11 @@ public class BaseTestClass {
 	
 	public void launchBrowser() {
 		System.out.println("--------browser launch--------");
-		//WebDriverManager.chromedriver().setup();
-	    driver = new ChromeDriver();
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-	    driver.get(propertyUtil.getDataFromProperty("url")); 
+//		//WebDriverManager.chromedriver().setup();
+//	    driver = new ChromeDriver();
+//	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//
+//	    driver.get(propertyUtil.getDataFromProperty("url")); 
 	}
 	@BeforeMethod(alwaysRun = true)
 	public void loginToApp() {
@@ -48,7 +48,7 @@ public class BaseTestClass {
 	@AfterClass(alwaysRun = true)
 	public void closeBrowser() {
 		System.out.println("close browser");
-		driver.quit();  
+//		driver.quit();  
 	}
 
 }
